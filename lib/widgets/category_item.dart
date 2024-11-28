@@ -18,7 +18,7 @@ class CategoryItem extends StatelessWidget {
           ),
           SizedBox(height: 4),
           Text(
-            category.nomCategorie, // Use nomCategorie instead of label
+            category.categorie, // Use nomCategorie instead of label
             style: TextStyle(fontSize: 16),
           ),
         ],
